@@ -1,0 +1,12 @@
+package edu.uspg.model;
+
+import edu.uspg.inter.IShape;
+
+public class Rectangle implements IShape {
+
+	@Override
+	public void draw() {
+		System.out.println("Inside Rectangle::draw() method.");
+	}
+
+}
